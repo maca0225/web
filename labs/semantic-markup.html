@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+	<!-- set language in html tag -->
+<html lang="en">
+	<!-- things in 'head' tag is only used by the browser, NOT content that is displayed on the page  -->
+	<head>
+		<title>Semantic Markup Practice</title>
+	<!-- you MUST set character encoding! -->
+	<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css"
+		href="semantic-style.css">
+		<!-- link to external css page-->
+
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower|Open+Sans:300,400|Pacifico" rel="stylesheet">
+
+	</head>
+
+	<body>
+	<!-- a div is a non-semantic, structural html element- you add divs so you can add css-->
+		<div id="wrapper">
+		<!-- //////// HEADER ///// -->
+		<header class="header-pic"
+			<h1>HTML5 Structure and Semantics</h1>
+		</header>
+
+		<nav>
+		<h2 class="nav-header">Main Navigation</h2>
+		<!-- nav is used for MAJOR navigation blocks - like internal navigation -->
+		<ul>
+			<!-- first 3 links are relativ links -->
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="hello-me.html">Hello World</a></li>
+			<!-- absolute link -->
+		</ul>
+		</nav>
+<!-- we will have one seciton with three different articles -->
+		<main> 
+			<section>
+				<h3>This is a Section</h3>
+
+				<article>
+					<h4>My First Article!</h4>
+				
+				<p>Green juice chillwave food truck pork belly authentic. Chicharrones street art tacos selvage distillery, meditation trust fund yr wayfarers tofu. Etsy semiotics church-key keffiyeh paleo DIY. Polaroid 3 wolf moon hammock biodiesel banh mi hoodie austin bushwick, photo booth ethical cred. Everyday carry vinyl cronut, before they sold out gochujang austin photo booth pinterest ugh bitters seitan chambray. Readymade offal green juice, street art mixtape letterpress wayfarers sustainable single-origin coffee gluten-free fap. Kogi roof party offal, direct trade yuccie street art master cleanse kale chips marfa farm-to-table hella dreamcatcher cardigan.</p>
+
+				<figure class="fig">
+					<!-- figure tag for informational imagery that supports the content of the page -->
+					<img src="http://placehold.it/400x200" alt="placeholder image">
+					<figcaption>Placeholder Image of 400 by 200 pixels</figcaption>
+				</figure>
+
+				<p>8-bit master cleanse PBR&B bespoke synth wayfarers. You probably haven't heard of them tilde pinterest, waistcoat typewriter pickled hella intelligentsia lo-fi. 8-bit DIY master cleanse, freegan humblebrag hoodie four dollar toast migas health goth kitsch. Seitan crucifix kickstarter mixtape, fap forage man braid health goth bitters bespoke flexitarian jean shorts cornhole retro. Marfa sustainable post-ironic raw denim, occupy jean shorts food truck pitchfork microdosing. 
+				</p>
+				</article>
+
+				<aside class="content-block">
+					<!-- use aside for supplementary information --> 
+					<h5>Supplementary Information in Aside</h5>
+					<p>Chartreuse VHS selvage, humblebrag flannel post-ironic asymmetrical williamsburg lo-fi ugh tofu swag. Farm-to-table chicharrones fap pickled master cleanse.</p>
+				</aside>
+				
+
+			</section>
+		</main>
+		<footer>
+			<!-- use special character code for copyright symbol --> 
+			<small>Site made by Madison &copy; 2016</small>
+		</footer>
+	</div>
+	</body>
+
+
+
+</html>

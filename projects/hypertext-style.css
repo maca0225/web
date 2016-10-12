@@ -1,0 +1,113 @@
+
+h1{
+	font-size: 4em;
+	text-align:center;
+	letter-spacing: .07em;
+	background-image:url('http://i925.photobucket.com/albums/ad97/Chocolate-Sugar/pretty%20arrow%20pngg_zpscn9ru16m.png');
+}
+
+body{
+	background-color:gray;
+	font-family:'Amatic SC', cursive;
+}
+
+/* styling links - pseudo classes (a = the link) */
+p{
+	line-height: 1.5em;
+}
+a:link{ /*link is the unclicked state*/
+	color:paleturquoise;
+	font-size:2em;
+	text-decoration:none; /*this gets rid of the underline*/
+
+	/*border-style:solid;
+	border-width:2px;
+	border-color:black;*/
+	padding:8px 15px;
+
+}
+.home{
+	border-style:solid;
+	border-width:2px;
+	border-color:salmon;
+}
+a:visited{ /*link has been visited*/
+	color:lightseagreen; 
+}
+a:hover{ /*the mouse is over the link*/
+	text-decoration:underline;
+	background-color:salmon;
+}
+a:active{ /*the mouse is CLICKED DOWN on the link*/
+	color:brown;
+}
+.rotate90{
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	padding-top: 5%;
+	padding-bottom: 8%;
+}
+
+li{
+	list-style-type:none;
+	padding:.5em 1.5em;
+	display:inline-block;
+}
+ul{
+	padding:0;
+	margin:0;
+	text-align:center;
+	margin-top:2em;
+	margin-bottom:4em;
+}
+.nav-header{
+		display:none;
+}
+.fig{
+	text-align:center;
+	margin:3em 0;
+}
+.wrapper{
+	width:70%;
+	margin:0 auto;
+	padding: 4em 0;
+}
+
+.icons {
+	list-style-type: none;
+	font-size: 1em;
+	text-align:left;
+}
+ul{
+	padding:0;
+}
+li{
+	display:inline-block;
+	padding:0 .5em;
+}
+
+.fixed{
+	position: fixed;
+	top:10em;
+	right:6em;
+	z-index:5;
+	border-style:dotted;
+	border-color:paleturquoise;
+	border-width:.5em;
+}
+
+.header-image {
+	background-image:url('http://i925.photobucket.com/albums/ad97/Chocolate-Sugar/pretty%20arrow%20pngg_zpscn9ru16m.png');
+}
+
+	/* border-style, border-weight, and border-color
+	ex. border:solid 5px darkcyan;*/
+
+/* wrapper id- this surrounds all of my page content */
+
+
+	/*this is a really great way to center things*/
+	margin:0 auto; /* 0 on top and bottom, auto on right and left*/

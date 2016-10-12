@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<body bgcolor="#282828">
+	<meta charset="utf-8">
+	<html lang="en">
+
+<head>
+	<title>hypertext_10.html</title>
+	<link rel="stylesheet" type="text/css"
+		href="hypertext-style.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower|Open+Sans:300,400|Pacifico" rel="stylesheet">
+
+		<SCRIPT LANGUAGE = "Javascript">
+			// Date //
+			function todaysTheDay(){
+				var today = new Date()
+				document.write("<p>Today is: ");
+				document.write(today.toDateString());
+				document.write("<p> and the time is: ");
+				document.write(today.toTimeString());
+				document.write("</p>");
+			}
+			function getRandomColor() {
+			    var letters = '0123456789ABCDEF';
+			    var color = '#';
+			    for (var i = 0; i < 6; i++ ) {
+			        color += letters[Math.floor(Math.random() * 16)];
+			    }
+			    return color;
+			}
+			function chBackColor() {
+			   document.body.style.backgroundColor = getRandomColor() ;
+			}
+
+			</SCRIPT>
+</head>
+
+	<header>
+		<h1><font color="white">How I've become an Artist Using Technology</font></h1>
+ <div class="position fixed" onclick="chBackColor()">
+                <h4>Page Number</h4>
+                <p class="description">10</p>
+            </div>
+	</header>
+
+	<script language="JavaScript">todaysTheDay();</script>
+	
+	<a href="hypertext_01.html" class="home">Home</a>
+
+<p>
+	The software I've learned throughout my education has allowed me draw on several different platforms to create truly unique artwork. Technology has also allowed me to visual display artwork that I've made with my hands. 
+</p>
+
+	<a href="hypertext_03.html">
+	<img src="2015-02-26 15.47.05.jpg" width="470">
+	</a>
+
+	<a href="hypertext_06.html">
+	<img src="File_004.png">
+	</a>
+
+	<a href="hypertext_05.html">
+	<img src="007.png">
+	</a>
+
+	<div class="wrapper">
+
+		<script src="https://use.fontawesome.com/27089f390a.js"></script>
+
+		 <ul class="icons">
+            	<li><a href="https://www.instagram.com/madcas33/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            	<li><a href="https://www.pinterest.com/madpickle33/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+            	<li><a href="https://www.facebook.com/profile.php?id=100011472924274"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            </ul>
+	</div>
+
+
+<footer>
+			<small>Site made by Madison &copy; 2016</small>
+		</footer>
+
+</html>

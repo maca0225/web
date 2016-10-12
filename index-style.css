@@ -1,0 +1,88 @@
+html{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+body{
+	font-family:'Amatic SC', cursive;
+
+h1{
+	font-size: 5em;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing: .07em;
+	background-image: url('https://hd.unsplash.com/photo-1465146344425-f00d5f5c8f07')
+}
+h2{
+	font-size: 3em;
+	text-align:left;
+
+}
+
+a:link{ /*link is the unclicked state*/
+	color:lightsalmon;
+	font-size:2em;
+	text-decoration:none; /*this gets rid of the underline*/
+
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+	padding:8px 15px;
+
+}
+a:visited{ /*link has been visited*/
+	color:lightseagreen; 
+}
+a:hover{ /*the mouse is over the link*/
+	text-decoration:underline;
+	background-color:lightcoral;
+}
+a:active{ /*the mouse is CLICKED DOWN on the link*/
+	color:lightpink;
+}
+
+
+li{
+	list-style-type:none;
+	padding:.5em 1.5em;
+	display:inline-block;
+}
+ul{
+	padding:0;
+	margin:0;
+	text-align:center;
+	margin-top:2em;
+	margin-bottom:4em;
+}
+
+.nav-header{
+		display:none;
+}
+.fig{
+	text-align:center;
+	margin:3em 0;
+}
+
+.content-block{
+	margin-top:3em;
+	margin-bottom:3em;
+	background-color:salmon;
+	padding:1em;
+
+}
+/* wrapper id- this surrounds all of my page content */
+#wrapper{
+	width:70%;
+}
+.icons {
+	list-style-type: none;
+	font-size: 1em;
+	text-align:left;
+}
+
+.header-image {
+	background-image:url('https://hd.unsplash.com/photo-1465146344425-f00d5f5c8f07');
+}
+
+

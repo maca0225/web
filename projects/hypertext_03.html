@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+<body bgcolor="#282828">
+	<meta charset="utf-8">
+	<html lang="en">
+
+<head>
+	<title>hypertext_06.html</title>
+	<link rel="stylesheet" type="text/css"
+		href="hypertext-style.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower|Open+Sans:300,400|Pacifico" rel="stylesheet">
+
+	<SCRIPT LANGUAGE = "Javascript">
+
+	// Date //
+	function todaysTheDay(){
+		var today = new Date()
+		document.write("<p>Today is: ");
+		document.write(today.toDateString());
+		document.write("<p> and the time is: ");
+		document.write(today.toTimeString());
+		document.write("</p>");
+	}
+	function getRandomColor() {
+	    var letters = '0123456789ABCDEF';
+	    var color = '#';
+	    for (var i = 0; i < 6; i++ ) {
+	        color += letters[Math.floor(Math.random() * 16)];
+	    }
+	    return color;
+	}
+	function chBackColor() {
+	   document.body.style.backgroundColor = getRandomColor() ;
+	}
+</SCRIPT>
+
+</head>
+
+	<header>
+		<h1><font color="white">Using Technology in Architecture</font></h1>
+		
+		 <div class="position fixed" onclick="chBackColor()">
+                <h4>Page Number</h4>
+                <p class="description">3</p>
+         </div>
+
+	</header>
+
+	<script language="JavaScript">todaysTheDay();</script>	
+
+	<a href="hypertext_01.html" class="home">Home</a>
+	
+
+<p>
+	Before studying Architecture I never realized about how much I would learn in technology and how much my daily tasks and creations would center around technology. 
+</p>
+
+	<a href="hypertext_09.html">
+	<img src="v3-0983.jpg" width="500">
+	</a>
+	<figcaption><small>Photo I captured of a homeless man on the sidewalk</small></figcaption>
+
+	<a href="hypertext_05.html"> 
+	<img src="005.png">
+	</a>
+
+	<a href="hypertext_07.html">
+	<img src="007.png">
+	</a>
+
+		<div class="wrapper">
+
+		<script src="https://use.fontawesome.com/27089f390a.js"></script>
+
+		 <ul class="icons">
+            	<li><a href="https://www.instagram.com/madcas33/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            	<li><a href="https://www.pinterest.com/madpickle33/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+            	<li><a href="https://www.facebook.com/profile.php?id=100011472924274"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            </ul>
+	</div>
+
+	
+<footer>
+			<small>Site made by Madison &copy; 2016</small>
+		</footer>
+
+</html>

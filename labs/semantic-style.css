@@ -1,0 +1,88 @@
+body{
+	background-color:lightcyan;
+	font-family:'Amatic SC', cursive;
+
+}
+h1{
+	font-size: 5em;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing: .07em;
+/*word-spacing: 1em;*/
+}
+/* styling links - pseudo classes (a = the link) */
+p{
+	line-height: 1.5em;
+}
+a:link{ /*link is the unclicked state*/
+	color:deeppink;
+	font-size:2em;
+	text-decoration:none; /*this gets rid of the underline*/
+
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+	padding:8px 15px;
+
+}
+a:visited{ /*link has been visited*/
+	color:lightseagreen; 
+}
+a:hover{ /*the mouse is over the link*/
+	text-decoration:underline;
+	background-color:gray;
+}
+a:active{ /*the mouse is CLICKED DOWN on the link*/
+	color:brown;
+}
+
+
+li{
+	list-style-type:none;
+	padding:.5em 1.5em;
+	display:inline-block;
+}
+ul{
+	padding:0;
+	margin:0;
+	text-align:center;
+	margin-top:2em;
+	margin-bottom:4em;
+}
+.nav-header{
+		display:none;
+}
+.fig{
+	text-align:center;
+	margin:3em 0;
+}
+
+.content-block{
+	margin-top:3em;
+	margin-bottom:3em;
+	background-color:salmon;
+	padding:1em;
+
+	/* border-style, border-weight, and border-color
+	ex. border:solid 5px darkcyan;*/
+}
+/* wrapper id- this surrounds all of my page content */
+#wrapper{
+	width:70%;
+
+	/*this is a really great way to center things*/
+	margin:0 auto; /* 0 on top and bottom, auto on right and left*/
+}
+
+
+/*
+.header-pic{
+
+	background-image: url(http://previews.123rf.com/images/rahultiwari3190/rahultiwari31901004/rahultiwari3190100400111/6872129-abstract-grunge-design-of-an-eye-illustration-Stock-Vector-png-eye-transparent.jpg);
+	height:200px; */
+}
+
+
+
+
+
